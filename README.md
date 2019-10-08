@@ -46,13 +46,13 @@ dev-mentor@devmentor-PC-MK34LEZCBEAD:~$ echo -e 'if command -v pyenv 1>/dev/null
 ```
 Then reload shell `exec $SHELL`.
 
-3. Create example folder `test`.
+4. Create example folder `test`.
 
 ```
 mkdir test && cd test
 ```
 
-4. Install python version, e.g `3.7.4`
+5. Install python version, e.g `3.7.4`
 
 ```
 dev-mentor@devmentor-PC-MK34LEZCBEAD:~/Downloads/test$ pyenv install 3.7.4
@@ -62,7 +62,7 @@ Installing Python-3.7.4...
 Installed Python-3.7.4 to /home/dev-mentor/.pyenv/versions/3.7.4
 ```
 
-5. Displaying available versions `pyenv versions`
+6. Displaying available versions `pyenv versions`
 
 ```
 dev-mentor@devmentor-PC-MK34LEZCBEAD:~/Downloads/test$ pyenv versions
@@ -70,7 +70,7 @@ dev-mentor@devmentor-PC-MK34LEZCBEAD:~/Downloads/test$ pyenv versions
   3.7.4
 ```
 
-6. Setting local version `pyenv local 3.7.4` or `pyenv global 3.7.4` as global config.
+7. Setting local version `pyenv local 3.7.4` or `pyenv global 3.7.4` as global config.
 
 ```
 dev-mentor@devmentor-PC-MK34LEZCBEAD:~/Downloads/test$ pyenv versions
@@ -78,14 +78,15 @@ dev-mentor@devmentor-PC-MK34LEZCBEAD:~/Downloads/test$ pyenv versions
 * 3.7.4 (set by /home/dev-mentor/Downloads/test/.python-version)
 ```
 
-7. Check active version.
+8. Check active version.
 
 ```
 dev-mentor@devmentor-PC-MK34LEZCBEAD:~/Downloads/test$ python --version
 Python 3.7.4
 ```
 
-8. Done.
+9. Done.
+
 
 ### Other usefull commands
 
