@@ -23,7 +23,7 @@ sudo apt-get install \
     uuid-dev
 ```
 
-2. Clone `pyenv.git` to `/home/dev-mentor/.pyenv`.
+2. Clone `pyenv.git` to `/home/USER/.pyenv`.
 
 ```
 dev-mentor@devmentor-PC-MK34LEZCBEAD:~$ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
