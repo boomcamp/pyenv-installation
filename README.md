@@ -119,4 +119,6 @@ Pyenv installer : https://github.com/pyenv/pyenv-installer
 
 Alternatives `venv` module : https://docs.python.org/3/library/venv.html
 
+# Next
+
 Basic python3,pip,pipenv,django-admin set-up: https://github.com/boomcamp/setup-pip-pipenv-django-admin-python3
