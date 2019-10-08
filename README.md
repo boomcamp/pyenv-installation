@@ -1,4 +1,4 @@
-### Basic penv setup and python installation
+### Basic pyenv setup and python installation
 
 **pyenv** = is a tool for simple Python version management.
 
