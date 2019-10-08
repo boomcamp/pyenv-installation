@@ -89,19 +89,25 @@ Python 3.7.4
 
 ### Other usefull commands
 
-1. Display available python versions
+1. To update pyenv and plugins (including pyenv-update itself), just type pyenv update.
+
+```
+pyenv update
+```
+
+2. Display available python versions.
 
 ```
 pyenv install -l
 ```
 
-2. Deactivate active virtual env
+3. Deactivate active virtual environment.
 
 ```
 pyenv deactivate
 ```
 
-3. Display pyenv commands
+4. Display pyenv commands.
 
 ```
 pyenv commands
