@@ -1,6 +1,6 @@
 ### Basic penv setup and python installation
 
-pyenv is a tool for simple Python version management.
+**pyenv** = is a tool for simple Python version management.
 
 1. First we need to install build tools:
 
@@ -39,12 +39,12 @@ Resolving deltas: 100% (11857/11857), done.
 3. Update `~./bashrc` with these environment variables. 
 
 ```
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc
+dev-mentor@devmentor-PC-MK34LEZCBEAD:~$ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+dev-mentor@devmentor-PC-MK34LEZCBEAD:~$ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+dev-mentor@devmentor-PC-MK34LEZCBEAD:~$ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc
 
 ```
-next reload shell `exec $SHELL`.
+Then reload shell `exec $SHELL`.
 
 3. Create example folder `test`.
 
@@ -52,7 +52,7 @@ next reload shell `exec $SHELL`.
 mkdir test && cd test
 ```
 
-4. Install python version example `3.7.4`
+4. Install python version, e.g `3.7.4`
 
 ```
 dev-mentor@devmentor-PC-MK34LEZCBEAD:~/Downloads/test$ pyenv install 3.7.4
@@ -65,6 +65,7 @@ Installed Python-3.7.4 to /home/dev-mentor/.pyenv/versions/3.7.4
 5. Displaying available versions `pyenv versions`
 
 ```
+dev-mentor@devmentor-PC-MK34LEZCBEAD:~/Downloads/test$
 * system (set by /home/dev-mentor/.pyenv/version)
   3.7.4
 ```
