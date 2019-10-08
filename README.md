@@ -88,3 +88,5 @@ Python 3.7.4
 8. Done.
 
 https://github.com/pyenv/pyenv-installer
+
+Alternatives `venv` module : https://docs.python.org/3/library/venv.html
