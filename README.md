@@ -73,7 +73,7 @@ dev-mentor@devmentor-PC-MK34LEZCBEAD:~/Downloads/test$
 6. Setting local version `pyenv local 3.7.4` or `pyenv global 7.7.4` as global config.
 
 ```
-dev-mentor@devmentor-PC-MK34LEZCBEAD:~/Downloads/test
+dev-mentor@devmentor-PC-MK34LEZCBEAD:~/Downloads/test$ pyenv versions
   system
 * 3.7.4 (set by /home/dev-mentor/Downloads/test/.python-version)
 ```
