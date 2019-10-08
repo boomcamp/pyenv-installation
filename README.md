@@ -1,4 +1,4 @@
-### Basic pyenv setup and python installation
+### How to configure pyenv and isolate python versions.
 
 **pyenv** = is a tool for simple python version management.
 
