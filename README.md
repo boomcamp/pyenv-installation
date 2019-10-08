@@ -65,12 +65,12 @@ Installed Python-3.7.4 to /home/dev-mentor/.pyenv/versions/3.7.4
 5. Displaying available versions `pyenv versions`
 
 ```
-dev-mentor@devmentor-PC-MK34LEZCBEAD:~/Downloads/test$
+dev-mentor@devmentor-PC-MK34LEZCBEAD:~/Downloads/test$ pyenv versions
 * system (set by /home/dev-mentor/.pyenv/version)
   3.7.4
 ```
 
-6. Setting local version `pyenv local 3.7.4` or `pyenv global 7.7.4` as global config.
+6. Setting local version `pyenv local 3.7.4` or `pyenv global 3.7.4` as global config.
 
 ```
 dev-mentor@devmentor-PC-MK34LEZCBEAD:~/Downloads/test$ pyenv versions
