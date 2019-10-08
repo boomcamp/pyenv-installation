@@ -87,6 +87,27 @@ Python 3.7.4
 
 8. Done.
 
+### Other usefull commands
+
+1. Display available python versions
+
+```
+pyenv install -l
+```
+
+2. Deactivate active virtual env
+
+```
+pyenv deactivate
+```
+
+3. Display pyenv commands
+
+```
+pyenv commands
+```
+
+### Resources
 
 Pyenv installer : https://github.com/pyenv/pyenv-installer
 
