@@ -1,6 +1,6 @@
 ### Basic pyenv setup and python installation
 
-**pyenv** = is a tool for simple Python version management.
+**pyenv** = is a tool for simple python version management.
 
 1. First we need to install build tools:
 
